@@ -46,11 +46,18 @@ form {
   padding: 10px;
   border: 1px solid #eee;
   outline: none;
-  width: 65%;
+  width: 35%;
 }
 
 .inputForm::placeholder {
   padding: 0px;
+}
+
+.inputForm__date{
+  outline: none;
+  border: none;
+  width: 20%;
+  padding: 8px;
 }
 
 .btnCreate {
@@ -124,4 +131,10 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+.date {
+  width: 90%;
+  padding: 15px;
+  list-style-type: none;
 }
