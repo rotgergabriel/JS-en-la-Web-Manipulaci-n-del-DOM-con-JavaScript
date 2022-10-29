@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+    form {
+        justify-content: space-evenly;
+    }
+
+    .mainCard {
+        width: 100vw;
+        padding: 5px;
+    }
+
+    .btnCreate {
+        padding: 10px 8px;
+    }
+}
